@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/index.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header id="welcome_message">
+        <div class="logo">
+        <img src="/image/Logo-DH-Cong-nghiep-Ha-Noi.webp" alt="Logo">
+        <h1>Trang chủ</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#monitor-system">Giám sát hệ thống</a></li>
+            <li><a href="#bedroom">Phòng ngủ</a></li>
+            <li><a href="#living-room">Phòng khách</a></li>
+            <li><a href="#kitchen">Nhà bếp</a></li>
+          </ul>
+        </nav>
+        
+
+      </header>
+      <!-- thoi tiet -->
+      <div class="weather-container">
+        <div class="weather-box">
+          <h2>Thành Phố</h2>
+          <img src="/image/city-name.webp" alt="Thời tiết nắng">
+          <p id="city-name">Nhiều mây</p>
+        </div>
+        <div class="realtime-box">
+          <h2>Nhiệt độ</h2>
+          <img src="/image/temp-icon.jpg" alt="thời gian thực">
+          <p id="temperature"></p>
+        </div>
+        
+        <div class="temperature-box">
+          <h2>Nhiệt độ cảm nhận</h2>
+          <img src="/image/feellike-icon.png" alt="Nhiệt độ">
+          <p id="feels-like">15C</p>
+        </div>
+        <div class="humidity-box">
+          <h2>Độ ẩm không khí</h2>
+          <img src="/image/logo-humid.png" alt="Độ ẩm">
+          <p id="humidity"></p>
+        </div>
+        <div class="condition-box">
+          <h2>Tốc độ gió</h2>
+          <img src="/image/wind-icon.png" alt="Nóng">
+          <p id=wind-speed></p>
+        </div>
+      </div>
+      
+    
+      <div class="weather-container">
+        <div class="weather-box">
+          <h2>Thời tiết</h2>
+          <img src="/image/logo-thoitiet.jpg" alt="Thời tiết nắng">
+          <p id="weather-status">Nhiều mây</p>
+        </div>
+        <div class="realtime-box">
+          <h2>Thời gian</h2>
+          <img src="/image/logo-clock.webp" alt="thời gian thực">
+          <p id="time-value"></p>
+        </div>
+        
+        <div class="temperature-box">
+          <h2>Nhiệt độ phòng</h2>
+          <img src="/image/logo-temp.jpg" alt="Nhiệt độ">
+          <p id="tempurature-value">15C</p>
+        </div>
+        <div class="humidity-box">
+          <h2>Độ ẩm phòng</h2>
+          <img src="/image/logo-humid.png" alt="Độ ẩm">
+          <p id="humid-value"></p>
+        </div>
+        <div class="condition-box">
+          <h2>Tình trạng khí Gas</h2>
+          <img src="/image/3520393.png" alt="Nóng">
+          <p id=gas-value></p>
+        </div>
+      </div>
+    
+      <!-- Thietbi1 -->
+      <div class="livingroom-container">
+        <div class="livingroom-box">
+          <h2>Phòng khách</h2>
+          <p id="status">Trạng thái: An Toàn</p>
+        </div>
+        <div class="device1-box">
+          <h2>Cảnh báo nhiệt độ</h2>
+          <p id="device1">Tắt</p>
+        </div>
+        
+        <div class="device2-box">
+          <h2>Cảnh báo khí gas</h2>
+          <p id="device2">Tắt</p>
+        </div>
+        <div class="device3-box">
+          <h2>Cảnh báo độ ẩm.</h2>
+          <p id="device3">Tắt</p>
+        </div>
+        <div class="device4-box">
+          <h2>Chuyển động</h2>
+          <p id=device4>Không chuyển động</p>
+        </div>
+      </div>
+      <!-- <div class="brightness-control">
+        <h2 id="warning">Tình trạng Nhiệt độ: An Toàn</h2>
+        <h2 id="warning2">Tình trạng Khí Gas: An Toàn</h2>
+        <h2 id="warning3">Tình trạng Khí Độ ẩm: An Toàn</h2>
+      
+        </div> -->
+  
+      
+      
+      
+    
+</body>
+<script src="/js/index.js"></script>
+<script src="/js/temp.js"></script>
+<!-- <iframe src="https://blynk.cloud/dashboard/159266/global/filter/1954721/organization/159266/devices/695245/dashboard" width="100%" height="300"></iframe> -->
+
+</html>
